@@ -4,7 +4,7 @@ import { CourseList } from './components/CourseList';
 import { GroupModal } from './components/GroupModal';
 import type { Course, Group } from './types';
 import { CURRENT_USER, MOCK_COURSES } from './mockData';
-import { Search, Bell, Activity, Users, Zap } from 'lucide-react';
+import { Activity, Users } from 'lucide-react';
 
 function App() {
   const [courses, setCourses] = useState<Course[]>(MOCK_COURSES);
